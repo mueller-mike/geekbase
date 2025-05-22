@@ -1,0 +1,25 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.log
+
+# Composer (if you add dependencies later)
+vendor/
+composer.lock
+
+# Default ignored files
+/shelf/
+/workspace.xml
+/vcs.xml
+/php.xml
+
+# Editor-based HTTP Client requests
+/httpRequests/
+
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
